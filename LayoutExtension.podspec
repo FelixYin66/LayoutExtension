@@ -93,12 +93,12 @@ Pod::Spec.new do |spec|
   #spec.exclude_files = "Classes/Exclude"
 
   spec.subspec 'CALayer-Extension' do |extension|
-       extension.source_files = 'ViewLayoutTestDemo/LayoutExtension/CALayer-Extension/**/*.{swift}'
+       extension.source_files = 'ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/CALayer-Extension/**/*.{swift}'
        #extension.dependency = '依赖的框架'
   end
 
   spec.subspec 'UIView-Extension' do |extension|
-       extension.source_files = 'ViewLayoutTestDemo/LayoutExtension/UIView-Extension/**/*.{swift}'
+       extension.source_files = 'ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIView-Extension/**/*.{swift}'
        #extension.dependency = '依赖的框架'
   end
 

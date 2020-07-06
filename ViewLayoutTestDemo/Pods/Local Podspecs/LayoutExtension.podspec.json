@@ -1,0 +1,32 @@
+{
+  "name": "LayoutExtension",
+  "version": "1.0",
+  "summary": "手动布局扩展控件",
+  "description": "手动布局扩展控件",
+  "homepage": "https://github.com/FelixYin66",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Felix Yin": "yinxianjin66@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/FelixYin66/LayoutExtension.git",
+    "tag": "1.0"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "CALayer-Extension",
+      "source_files": "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/CALayer-Extension/**/*.{swift}"
+    },
+    {
+      "name": "UIView-Extension",
+      "source_files": "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIView-Extension/**/*.{swift}"
+    }
+  ]
+}

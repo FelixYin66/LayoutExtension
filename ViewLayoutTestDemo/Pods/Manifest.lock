@@ -1,0 +1,25 @@
+PODS:
+  - LayoutExtension (1.0):
+    - LayoutExtension/CALayer-Extension (= 1.0)
+    - LayoutExtension/UIView-Extension (= 1.0)
+  - LayoutExtension/CALayer-Extension (1.0)
+  - LayoutExtension/UIView-Extension (1.0)
+
+DEPENDENCIES:
+  - LayoutExtension (from `https://github.com/FelixYin66/LayoutExtension.git`)
+
+EXTERNAL SOURCES:
+  LayoutExtension:
+    :git: https://github.com/FelixYin66/LayoutExtension.git
+
+CHECKOUT OPTIONS:
+  LayoutExtension:
+    :commit: 4f350c864cec253e03a7a07b18788519d897e10d
+    :git: https://github.com/FelixYin66/LayoutExtension.git
+
+SPEC CHECKSUMS:
+  LayoutExtension: de109e3a5a35164737f0d7c26ea0adfdcdb02f6b
+
+PODFILE CHECKSUM: bb6f8cd505668ac76c94162c98515edb37f19022
+
+COCOAPODS: 1.8.4

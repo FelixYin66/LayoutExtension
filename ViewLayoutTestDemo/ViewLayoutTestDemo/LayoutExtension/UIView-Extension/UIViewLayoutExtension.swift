@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView{
     
-    class func isiPhoneX() -> Bool {
+   public class func isiPhoneX() -> Bool {
         if #available(iOS 11.0, *) {
             let window:UIWindow = UIApplication.shared.delegate!.window!!;
             let isiPhoneX = window.safeAreaInsets.bottom > 0 ? true : false;
@@ -19,11 +19,11 @@ extension UIView{
         return false;
     }
     
-    class func UIWidth() -> CGFloat {
+   public class func UIWidth() -> CGFloat {
         return UIScreen.main.bounds.size.width;
     }
     
-    class func UIHeight() -> CGFloat {
+    public class func UIHeight() -> CGFloat {
         return UIScreen.main.bounds.size.height;
     }
     

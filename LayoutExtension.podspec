@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LayoutExtension"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "手动布局扩展控件"
 
   # This description is used to generate tags and improve search results.
@@ -101,6 +101,13 @@ Pod::Spec.new do |spec|
        extension.source_files = 'ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIView-Extension/**/*.{swift}'
        #extension.dependency = '依赖的框架'
   end
+
+  spec.subspec 'UIColor-Extension' do |extension|
+       extension.source_files = 'ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIColor-Extension/**/*.{swift}'
+       #extension.dependency = '依赖的框架'
+  end
+
+
 
 
 

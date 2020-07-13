@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		539058F3AD558F81B20E963F /* Pods_ViewLayoutTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8437C8FD3CDC364C8CA34D2 /* Pods_ViewLayoutTestDemo.framework */; };
+		8606AAB424BC2DE900FF9876 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606AAB324BC2DE900FF9876 /* UIColor-Extension.swift */; };
 		86377C8524B3060300B4AE5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86377C8424B3060300B4AE5B /* AppDelegate.swift */; };
 		86377C8724B3060300B4AE5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86377C8624B3060300B4AE5B /* SceneDelegate.swift */; };
 		86377C8924B3060300B4AE5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86377C8824B3060300B4AE5B /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		0E38680AE0F4FC2BEB97E041 /* Pods-ViewLayoutTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewLayoutTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-ViewLayoutTestDemo/Pods-ViewLayoutTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8606AAB324BC2DE900FF9876 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		86377C8124B3060300B4AE5B /* ViewLayoutTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayoutTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86377C8424B3060300B4AE5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86377C8624B3060300B4AE5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +62,15 @@
 				0E38680AE0F4FC2BEB97E041 /* Pods-ViewLayoutTestDemo.debug.xcconfig */,
 				BC9B95F5493DD1EF8F0FFA43 /* Pods-ViewLayoutTestDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8606AAB224BC2DA500FF9876 /* UIColor-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8606AAB324BC2DE900FF9876 /* UIColor-Extension.swift */,
+			);
+			path = "UIColor-Extension";
 			sourceTree = "<group>";
 		};
 		86377C7824B3060200B4AE5B = {
@@ -100,6 +109,7 @@
 		86377C9824B3072300B4AE5B /* LayoutExtension */ = {
 			isa = PBXGroup;
 			children = (
+				8606AAB224BC2DA500FF9876 /* UIColor-Extension */,
 				86377C9924B3077400B4AE5B /* CALayer-Extension */,
 				86377C9B24B3077400B4AE5B /* UIView-Extension */,
 			);
@@ -238,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86377C8924B3060300B4AE5B /* ViewController.swift in Sources */,
+				8606AAB424BC2DE900FF9876 /* UIColor-Extension.swift in Sources */,
 				86377C8524B3060300B4AE5B /* AppDelegate.swift in Sources */,
 				86377C8724B3060300B4AE5B /* SceneDelegate.swift in Sources */,
 				86377C9D24B3077400B4AE5B /* CALayerLayoutExtension.swift in Sources */,

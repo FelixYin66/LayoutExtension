@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         self.btn.left = 100;
         self.btn.top = 100;
         self.btn.size = CGSize(width: 100, height: 30);
+        btn.backgroundColor = UIColor.colorHex(str: "#0E7EEE");
+        btn.backgroundColor = UIColor.color(r: 51, g: 51, b: 51, a: 1);
     }
 
 

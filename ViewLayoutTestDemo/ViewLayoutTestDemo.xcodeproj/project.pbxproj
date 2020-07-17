@@ -32,6 +32,7 @@
 		86377C9224B3060300B4AE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86377C9A24B3077400B4AE5B /* CALayerLayoutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerLayoutExtension.swift; sourceTree = "<group>"; };
 		86377C9C24B3077400B4AE5B /* UIViewLayoutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewLayoutExtension.swift; sourceTree = "<group>"; };
+		86D11DDB24C1469E00F63E6F /* LayoutExtension.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = LayoutExtension.podspec; path = ../../LayoutExtension.podspec; sourceTree = "<group>"; };
 		BC9B95F5493DD1EF8F0FFA43 /* Pods-ViewLayoutTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewLayoutTestDemo.release.xcconfig"; path = "Target Support Files/Pods-ViewLayoutTestDemo/Pods-ViewLayoutTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8437C8FD3CDC364C8CA34D2 /* Pods_ViewLayoutTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewLayoutTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +95,7 @@
 		86377C8324B3060300B4AE5B /* ViewLayoutTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				86D11DDB24C1469E00F63E6F /* LayoutExtension.podspec */,
 				86377C9824B3072300B4AE5B /* LayoutExtension */,
 				86377C8424B3060300B4AE5B /* AppDelegate.swift */,
 				86377C8624B3060300B4AE5B /* SceneDelegate.swift */,

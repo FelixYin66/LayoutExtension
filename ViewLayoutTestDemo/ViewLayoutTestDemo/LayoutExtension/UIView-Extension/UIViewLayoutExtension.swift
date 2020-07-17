@@ -27,20 +27,20 @@ extension UIView{
         return UIScreen.main.bounds.size.height;
     }
     
-    class func ScreenWidthScale() -> CGFloat {
+    public class func ScreenWidthScale() -> CGFloat {
         return UIView.UIWidth()/375.0;
     }
     
-    class func ScreenHeightScale() -> CGFloat {
+    public class func ScreenHeightScale() -> CGFloat {
         return UIView.isiPhoneX() ? (UIView.UIHeight() - 58)/667.0 : UIView.UIHeight()/667.0;
     }
     
-    class func ScaleMakeSize(x:CGFloat,y:CGFloat) -> CGSize {
+    public class func ScaleMakeSize(x:CGFloat,y:CGFloat) -> CGSize {
         let scale = UIView.ScreenWidthScale();
         return CGSize(width: x*scale, height: scale*y);
     }
     
-    class func ScaleSize(x:CGFloat) -> CGFloat {
+    public class func ScaleSize(x:CGFloat) -> CGFloat {
         let scale = UIView.ScreenWidthScale();
         return scale*x;
     }

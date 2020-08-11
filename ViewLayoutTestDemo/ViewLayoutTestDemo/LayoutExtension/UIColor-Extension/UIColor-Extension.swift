@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIColor{
+public extension UIColor{
     
-    public class func color(r:NSInteger,g:NSInteger,b:NSInteger,a:Float) -> UIColor {
+     class func color(r:NSInteger,g:NSInteger,b:NSInteger,a:Float) -> UIColor {
         let red:CGFloat = CGFloat(r)/255.0;
         let green:CGFloat = CGFloat(g)/255.0;
         let blue:CGFloat = CGFloat(b)/255.0;
@@ -18,7 +18,7 @@ extension UIColor{
         return UIColor.init(red: red, green: green, blue: blue, alpha: alpha);
     }
     
-    public class func colorHex(str:String) -> (UIColor?) {
+     class func colorHex(str:String) -> (UIColor?) {
         let scanner:Scanner = Scanner(string: str);
         if str.hasPrefix("#"){
             scanner.scanLocation = 1;

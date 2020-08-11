@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView{
     
-   public class func isiPhoneX() -> Bool {
+   open class func isiPhoneX() -> Bool {
         if #available(iOS 11.0, *) {
             let window:UIWindow = UIApplication.shared.delegate!.window!!;
             let isiPhoneX = window.safeAreaInsets.bottom > 0 ? true : false;
@@ -19,33 +19,33 @@ extension UIView{
         return false;
     }
     
-   public class func UIWidth() -> CGFloat {
+   open class func UIWidth() -> CGFloat {
         return UIScreen.main.bounds.size.width;
     }
     
-    public class func UIHeight() -> CGFloat {
+    open class func UIHeight() -> CGFloat {
         return UIScreen.main.bounds.size.height;
     }
     
-    public class func ScreenWidthScale() -> CGFloat {
+    open class func ScreenWidthScale() -> CGFloat {
         return UIView.UIWidth()/375.0;
     }
     
-    public class func ScreenHeightScale() -> CGFloat {
+    open class func ScreenHeightScale() -> CGFloat {
         return UIView.isiPhoneX() ? (UIView.UIHeight() - 58)/667.0 : UIView.UIHeight()/667.0;
     }
     
-    public class func ScaleMakeSize(x:CGFloat,y:CGFloat) -> CGSize {
+    open class func ScaleMakeSize(x:CGFloat,y:CGFloat) -> CGSize {
         let scale = UIView.ScreenWidthScale();
         return CGSize(width: x*scale, height: scale*y);
     }
     
-    public class func ScaleSize(x:CGFloat) -> CGFloat {
+    open class func ScaleSize(x:CGFloat) -> CGFloat {
         let scale = UIView.ScreenWidthScale();
         return scale*x;
     }
  
-    public var left:CGFloat{
+    open var left:CGFloat{
         get{
             return self.frame.origin.x;
         }
@@ -56,7 +56,7 @@ extension UIView{
         }
     }
     
-    public var top:CGFloat{
+    open var top:CGFloat{
         get{
             return self.frame.origin.y;
         }
@@ -67,7 +67,7 @@ extension UIView{
         }
     }
     
-    public var width:CGFloat{
+    open var width:CGFloat{
         get{
             return self.frame.size.width;
         }
@@ -78,7 +78,7 @@ extension UIView{
         }
     }
     
-    public var height:CGFloat{
+    open var height:CGFloat{
         get{
             return self.frame.size.height;
         }
@@ -89,7 +89,7 @@ extension UIView{
         }
     }
     
-    public var right:CGFloat{
+    open var right:CGFloat{
         get{
             return self.left + self.width;
         }
@@ -100,7 +100,7 @@ extension UIView{
         }
     }
     
-    public var bottom:CGFloat{
+    open var bottom:CGFloat{
         get{
             return self.top + self.height;
         }
@@ -111,7 +111,7 @@ extension UIView{
         }
     }
     
-    public var centerX:CGFloat{
+    open var centerX:CGFloat{
         get{
             return self.center.x;
         }
@@ -120,7 +120,7 @@ extension UIView{
         }
     }
     
-    public var centerY:CGFloat{
+    open var centerY:CGFloat{
         get{
             return self.center.y;
         }
@@ -129,7 +129,7 @@ extension UIView{
         }
     }
     
-    public var origin:CGPoint{
+    open var origin:CGPoint{
         get{
             return self.frame.origin;
         }
@@ -139,7 +139,7 @@ extension UIView{
         }
     }
     
-    public var size:CGSize{
+    open var size:CGSize{
         get{
             return self.frame.size;
         }

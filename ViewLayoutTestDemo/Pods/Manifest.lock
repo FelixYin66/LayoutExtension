@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LayoutExtension:
-    :commit: 26b0851f4a45c7d4f90e5b71fcb0a8bfd1afb240
+    :commit: a2552e777c3899d37f6a0492089cfce77900043b
     :git: https://github.com/FelixYin66/LayoutExtension.git
 
 SPEC CHECKSUMS:

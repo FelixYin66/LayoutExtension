@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension CALayer{
+public extension CALayer{
     public var left:CGFloat{
         get{
             return self.frame.origin.x;

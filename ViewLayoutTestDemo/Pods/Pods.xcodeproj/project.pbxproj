@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06AFD2C594DC1BF850A2F72AF10EAFC7 /* CALayerLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5A56CBD995FF2CB0B1B9DA6D0B05 /* CALayerLayoutExtension.swift */; };
-		192598947277AE3D30CB4B522A85D672 /* LayoutExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6964BF9E382C6E0D562667517525AAB /* LayoutExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02394E1672BF7376ACA9E9A2B9B916A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		10F00BB9FD1EC760359E73B0705D0528 /* CALayerLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C793A30B07C007BB279F6EC6C7E3F /* CALayerLayoutExtension.swift */; };
 		51D966F64532C7403FBC3D00EBED72D6 /* Pods-ViewLayoutTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF4264D091BBE33B1FEDE914D9EC3F /* Pods-ViewLayoutTestDemo-dummy.m */; };
-		533C443AF6AA790F0911C0D9DBC16A81 /* LayoutExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD6C23980B62973471ABA54F8971A5B /* LayoutExtension-dummy.m */; };
+		7736A2D0B27F1A17318A9F0064C3001B /* LayoutExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D38DBEF81FF973308F0A32D98D4F1A18 /* LayoutExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79AC6CE306605B2DEF8D7C96C02518BE /* UIViewLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2083EC88885E85207F1323A11603297 /* UIViewLayoutExtension.swift */; };
 		7AED1C1202D7B9B801A788F0B669ABF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8BE37D3972633021FAAED046196EF5C4 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF23B61DB027C4F6F2E546C11FD719E /* UIColor-Extension.swift */; };
 		9C8FE598980A1E388EEFBC3A376E53A9 /* Pods-ViewLayoutTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEA5E7E11620857B86F9D162FAA7143 /* Pods-ViewLayoutTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0FC1EB37F1E0D1787B94BF2B384B969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D78B47030885178EEEFD05EB01F42EC3 /* UIViewLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9E281CCE6BD24BC436B3DC111961F /* UIViewLayoutExtension.swift */; };
+		A6C2D1BFEFC48374899F3239F07BE672 /* LayoutExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ADB453D2FD57D8D2A11E44AE7478A8 /* LayoutExtension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +32,23 @@
 		0319CC4AEC035E12ABF4894523865776 /* Pods-ViewLayoutTestDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewLayoutTestDemo-frameworks.sh"; sourceTree = "<group>"; };
 		0782C7781D14E3930B8B35B032FF296C /* Pods-ViewLayoutTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewLayoutTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		0BFF4264D091BBE33B1FEDE914D9EC3F /* Pods-ViewLayoutTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewLayoutTestDemo-dummy.m"; sourceTree = "<group>"; };
-		15EE5A56CBD995FF2CB0B1B9DA6D0B05 /* CALayerLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerLayoutExtension.swift; path = "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/CALayer-Extension/CALayerLayoutExtension.swift"; sourceTree = "<group>"; };
+		17ADB453D2FD57D8D2A11E44AE7478A8 /* LayoutExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutExtension-dummy.m"; sourceTree = "<group>"; };
+		1B8D9AB9CE9727B2E7C0F3B2BF2785D5 /* LayoutExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LayoutExtension.modulemap; sourceTree = "<group>"; };
 		1EEA5E7E11620857B86F9D162FAA7143 /* Pods-ViewLayoutTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewLayoutTestDemo-umbrella.h"; sourceTree = "<group>"; };
-		2C1BABF9CD24E5881E7C3FF925960039 /* LayoutExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LayoutExtension-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B44C05DAA5BAFB636A96CAC64E8BD82 /* LayoutExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutExtension.xcconfig; sourceTree = "<group>"; };
 		3C2CFD2A20CB1F16A7869DD643669C39 /* Pods-ViewLayoutTestDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewLayoutTestDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		56B16893E9C36714EF2B2BC1B1C4F2DB /* LayoutExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutExtension-prefix.pch"; sourceTree = "<group>"; };
 		58612E62D1E52F974A88BF6CAAEBAC28 /* Pods-ViewLayoutTestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewLayoutTestDemo-Info.plist"; sourceTree = "<group>"; };
 		66BCA4AB0F74AD341A080E7AAAA9A8D1 /* Pods-ViewLayoutTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViewLayoutTestDemo.modulemap"; sourceTree = "<group>"; };
+		7A0704DC764DAE2CAD748C9967087AE6 /* LayoutExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LayoutExtension-Info.plist"; sourceTree = "<group>"; };
+		7CF23B61DB027C4F6F2E546C11FD719E /* UIColor-Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor-Extension.swift"; path = "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIColor-Extension/UIColor-Extension.swift"; sourceTree = "<group>"; };
 		9C94BAA2358678AC7E9BBE5C8BDA177C /* Pods-ViewLayoutTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewLayoutTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C9A6365948587E895A8237301EE240BB /* LayoutExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LayoutExtension.modulemap; sourceTree = "<group>"; };
+		A03C793A30B07C007BB279F6EC6C7E3F /* CALayerLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerLayoutExtension.swift; path = "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/CALayer-Extension/CALayerLayoutExtension.swift"; sourceTree = "<group>"; };
+		A4473C29DFEFBB548B166D367474AF0B /* LayoutExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutExtension.xcconfig; sourceTree = "<group>"; };
+		B2083EC88885E85207F1323A11603297 /* UIViewLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewLayoutExtension.swift; path = "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIView-Extension/UIViewLayoutExtension.swift"; sourceTree = "<group>"; };
+		BE7C8426B7465CF61E098B7D343C2976 /* LayoutExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutExtension-prefix.pch"; sourceTree = "<group>"; };
 		CBCAF794E1735B958F8F09FFF05B5EA6 /* Pods-ViewLayoutTestDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewLayoutTestDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0C9E281CCE6BD24BC436B3DC111961F /* UIViewLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewLayoutExtension.swift; path = "ViewLayoutTestDemo/ViewLayoutTestDemo/LayoutExtension/UIView-Extension/UIViewLayoutExtension.swift"; sourceTree = "<group>"; };
-		D6964BF9E382C6E0D562667517525AAB /* LayoutExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutExtension-umbrella.h"; sourceTree = "<group>"; };
-		DCD6C23980B62973471ABA54F8971A5B /* LayoutExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutExtension-dummy.m"; sourceTree = "<group>"; };
+		D38DBEF81FF973308F0A32D98D4F1A18 /* LayoutExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutExtension-umbrella.h"; sourceTree = "<group>"; };
 		DF5D8366EB34C54698A63F700BF297A4 /* Pods_ViewLayoutTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ViewLayoutTestDemo.framework; path = "Pods-ViewLayoutTestDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5435E4453E13ACC9F3289C70653630B /* LayoutExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayoutExtension.framework; path = LayoutExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,11 +62,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF53F429F4663C406327FFEA7BE0CF53 /* Frameworks */ = {
+		668233F1C12A1693DFCE9087FD8FE535 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0FC1EB37F1E0D1787B94BF2B384B969 /* Foundation.framework in Frameworks */,
+				02394E1672BF7376ACA9E9A2B9B916A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,53 +90,62 @@
 			path = "Target Support Files/Pods-ViewLayoutTestDemo";
 			sourceTree = "<group>";
 		};
-		1AF169B46356EB923AA6E323DAE20A8C /* Support Files */ = {
+		4499B8B5F9BB7CD0D25FED6357C74499 /* UIColor-Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C9A6365948587E895A8237301EE240BB /* LayoutExtension.modulemap */,
-				3B44C05DAA5BAFB636A96CAC64E8BD82 /* LayoutExtension.xcconfig */,
-				DCD6C23980B62973471ABA54F8971A5B /* LayoutExtension-dummy.m */,
-				2C1BABF9CD24E5881E7C3FF925960039 /* LayoutExtension-Info.plist */,
-				56B16893E9C36714EF2B2BC1B1C4F2DB /* LayoutExtension-prefix.pch */,
-				D6964BF9E382C6E0D562667517525AAB /* LayoutExtension-umbrella.h */,
+				7CF23B61DB027C4F6F2E546C11FD719E /* UIColor-Extension.swift */,
+			);
+			name = "UIColor-Extension";
+			sourceTree = "<group>";
+		};
+		66A73F2C5FE25F5292B4E9CE76A88700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70E05A064EA1C48FC9B15EE3397EE2BC /* LayoutExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70E05A064EA1C48FC9B15EE3397EE2BC /* LayoutExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B56FC8A1F3D3C1BE717A41C925CD1413 /* CALayer-Extension */,
+				866E9B2ABEB2E2284F72B919DADF53E8 /* Support Files */,
+				4499B8B5F9BB7CD0D25FED6357C74499 /* UIColor-Extension */,
+				AFAA10EA518626881175F5D45986BD56 /* UIView-Extension */,
+			);
+			name = LayoutExtension;
+			path = LayoutExtension;
+			sourceTree = "<group>";
+		};
+		866E9B2ABEB2E2284F72B919DADF53E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D9AB9CE9727B2E7C0F3B2BF2785D5 /* LayoutExtension.modulemap */,
+				A4473C29DFEFBB548B166D367474AF0B /* LayoutExtension.xcconfig */,
+				17ADB453D2FD57D8D2A11E44AE7478A8 /* LayoutExtension-dummy.m */,
+				7A0704DC764DAE2CAD748C9967087AE6 /* LayoutExtension-Info.plist */,
+				BE7C8426B7465CF61E098B7D343C2976 /* LayoutExtension-prefix.pch */,
+				D38DBEF81FF973308F0A32D98D4F1A18 /* LayoutExtension-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LayoutExtension";
 			sourceTree = "<group>";
 		};
-		599A58D285B85FCEAC166CE1D30F8B44 /* Pods */ = {
+		AFAA10EA518626881175F5D45986BD56 /* UIView-Extension */ = {
 			isa = PBXGroup;
 			children = (
-				AA16BB280B40A40E5A09E77C7F6BE78B /* LayoutExtension */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5C8CFE705EC17D127279F9F226E64345 /* CALayer-Extension */ = {
-			isa = PBXGroup;
-			children = (
-				15EE5A56CBD995FF2CB0B1B9DA6D0B05 /* CALayerLayoutExtension.swift */,
-			);
-			name = "CALayer-Extension";
-			sourceTree = "<group>";
-		};
-		91D5E3CCE2A4AF33431409D547FEEB28 /* UIView-Extension */ = {
-			isa = PBXGroup;
-			children = (
-				D0C9E281CCE6BD24BC436B3DC111961F /* UIViewLayoutExtension.swift */,
+				B2083EC88885E85207F1323A11603297 /* UIViewLayoutExtension.swift */,
 			);
 			name = "UIView-Extension";
 			sourceTree = "<group>";
 		};
-		AA16BB280B40A40E5A09E77C7F6BE78B /* LayoutExtension */ = {
+		B56FC8A1F3D3C1BE717A41C925CD1413 /* CALayer-Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5C8CFE705EC17D127279F9F226E64345 /* CALayer-Extension */,
-				1AF169B46356EB923AA6E323DAE20A8C /* Support Files */,
-				91D5E3CCE2A4AF33431409D547FEEB28 /* UIView-Extension */,
+				A03C793A30B07C007BB279F6EC6C7E3F /* CALayerLayoutExtension.swift */,
 			);
-			name = LayoutExtension;
-			path = LayoutExtension;
+			name = "CALayer-Extension";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -167,7 +178,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				599A58D285B85FCEAC166CE1D30F8B44 /* Pods */,
+				66A73F2C5FE25F5292B4E9CE76A88700 /* Pods */,
 				CA7BF18C8B3B067CF32FE290962F257F /* Products */,
 				C0B0368DF1F79136FDCC5C9D447AC430 /* Targets Support Files */,
 			);
@@ -184,11 +195,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B9C078F3D9A77434E22ED88A6AEB56EA /* Headers */ = {
+		75B2C979AB65361D9A75910A6B5D12B0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192598947277AE3D30CB4B522A85D672 /* LayoutExtension-umbrella.h in Headers */,
+				7736A2D0B27F1A17318A9F0064C3001B /* LayoutExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,12 +216,12 @@
 /* Begin PBXNativeTarget section */
 		6A1AFFB8A0C956D8E9461121A3813FD4 /* LayoutExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA6E0B487CD46532C7754DBB3116A455 /* Build configuration list for PBXNativeTarget "LayoutExtension" */;
+			buildConfigurationList = AB2BED68D890C5C0DE66FB2F0F0D3B2F /* Build configuration list for PBXNativeTarget "LayoutExtension" */;
 			buildPhases = (
-				B9C078F3D9A77434E22ED88A6AEB56EA /* Headers */,
-				83D5A142CEF2574F727280FAD13AEC59 /* Sources */,
-				CF53F429F4663C406327FFEA7BE0CF53 /* Frameworks */,
-				CD0AD5FFBF3AF28EEBA9CDC96008D990 /* Resources */,
+				75B2C979AB65361D9A75910A6B5D12B0 /* Headers */,
+				E741BA4859E3BED440CD33676759BD3E /* Sources */,
+				668233F1C12A1693DFCE9087FD8FE535 /* Frameworks */,
+				CA7F4B2616A2B4EF68BF2C094C7FC4A8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -276,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD0AD5FFBF3AF28EEBA9CDC96008D990 /* Resources */ = {
+		CA7F4B2616A2B4EF68BF2C094C7FC4A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,13 +305,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83D5A142CEF2574F727280FAD13AEC59 /* Sources */ = {
+		E741BA4859E3BED440CD33676759BD3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06AFD2C594DC1BF850A2F72AF10EAFC7 /* CALayerLayoutExtension.swift in Sources */,
-				533C443AF6AA790F0911C0D9DBC16A81 /* LayoutExtension-dummy.m in Sources */,
-				D78B47030885178EEEFD05EB01F42EC3 /* UIViewLayoutExtension.swift in Sources */,
+				10F00BB9FD1EC760359E73B0705D0528 /* CALayerLayoutExtension.swift in Sources */,
+				A6C2D1BFEFC48374899F3239F07BE672 /* LayoutExtension-dummy.m in Sources */,
+				8BE37D3972633021FAAED046196EF5C4 /* UIColor-Extension.swift in Sources */,
+				79AC6CE306605B2DEF8D7C96C02518BE /* UIViewLayoutExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +328,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		205D7F1E8C68EEEF18218FB2B681A843 /* Release */ = {
+		39E7C7719C121BB3BE65E1E1D4B73225 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B44C05DAA5BAFB636A96CAC64E8BD82 /* LayoutExtension.xcconfig */;
+			baseConfigurationReference = A4473C29DFEFBB548B166D367474AF0B /* LayoutExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -346,11 +358,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -476,41 +487,6 @@
 			};
 			name = Debug;
 		};
-		B205EFFD82597E271BE41318131021BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B44C05DAA5BAFB636A96CAC64E8BD82 /* LayoutExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LayoutExtension/LayoutExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LayoutExtension/LayoutExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LayoutExtension/LayoutExtension.modulemap";
-				PRODUCT_MODULE_NAME = LayoutExtension;
-				PRODUCT_NAME = LayoutExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B5AC325D694EAFF13145FB3CF13405D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C94BAA2358678AC7E9BBE5C8BDA177C /* Pods-ViewLayoutTestDemo.release.xcconfig */;
@@ -586,6 +562,42 @@
 			};
 			name = Debug;
 		};
+		ED642020DB1E9725F7C5FD3F13BC38E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4473C29DFEFBB548B166D367474AF0B /* LayoutExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutExtension/LayoutExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutExtension/LayoutExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LayoutExtension/LayoutExtension.modulemap";
+				PRODUCT_MODULE_NAME = LayoutExtension;
+				PRODUCT_NAME = LayoutExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,11 +619,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA6E0B487CD46532C7754DBB3116A455 /* Build configuration list for PBXNativeTarget "LayoutExtension" */ = {
+		AB2BED68D890C5C0DE66FB2F0F0D3B2F /* Build configuration list for PBXNativeTarget "LayoutExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B205EFFD82597E271BE41318131021BA /* Debug */,
-				205D7F1E8C68EEEF18218FB2B681A843 /* Release */,
+				39E7C7719C121BB3BE65E1E1D4B73225 /* Debug */,
+				ED642020DB1E9725F7C5FD3F13BC38E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

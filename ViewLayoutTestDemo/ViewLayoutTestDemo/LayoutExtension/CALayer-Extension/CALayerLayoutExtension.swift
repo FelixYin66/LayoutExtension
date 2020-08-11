@@ -8,8 +8,8 @@
 
 import UIKit
 
-public extension CALayer{
-    public var left:CGFloat{
+extension CALayer{
+    open var left:CGFloat{
         get{
             return self.frame.origin.x;
         }
@@ -20,7 +20,7 @@ public extension CALayer{
         }
     }
     
-    public var top:CGFloat{
+    open var top:CGFloat{
         get{
             return self.frame.origin.y;
         }
@@ -31,7 +31,7 @@ public extension CALayer{
         }
     }
     
-    public var width:CGFloat{
+    open var width:CGFloat{
         get{
             return self.frame.size.width;
         }
@@ -42,7 +42,7 @@ public extension CALayer{
         }
     }
     
-    public var height:CGFloat{
+    open var height:CGFloat{
         get{
             return self.frame.size.height;
         }
@@ -53,7 +53,7 @@ public extension CALayer{
         }
     }
     
-    public var right:CGFloat{
+    open var right:CGFloat{
         get{
             return self.left + self.width;
         }
@@ -64,7 +64,7 @@ public extension CALayer{
         }
     }
     
-    public var bottom:CGFloat{
+    open var bottom:CGFloat{
         get{
             return self.top + self.height;
         }
@@ -75,7 +75,7 @@ public extension CALayer{
         }
     }
     
-    public var center:CGPoint {
+    open var center:CGPoint {
         get{
             let x = self.frame.origin.x + self.frame.size.width*0.5;
             let y = self.frame.origin.y + self.frame.size.height*0.5;
@@ -90,7 +90,7 @@ public extension CALayer{
     }
     
     
-    public var centerX:CGFloat{
+    open var centerX:CGFloat{
         get{
             return self.center.x;
         }
@@ -99,7 +99,7 @@ public extension CALayer{
         }
     }
     
-    public var centerY:CGFloat{
+    open var centerY:CGFloat{
         get{
             return self.center.y;
         }
@@ -108,7 +108,7 @@ public extension CALayer{
         }
     }
     
-    public var origin:CGPoint{
+    open var origin:CGPoint{
         get{
             return self.frame.origin;
         }
@@ -118,7 +118,7 @@ public extension CALayer{
         }
     }
     
-    public var size:CGSize{
+    open var size:CGSize{
         get{
             return self.frame.size;
         }

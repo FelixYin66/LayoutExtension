@@ -27,6 +27,10 @@ extension UIView{
         return UIScreen.main.bounds.size.height;
     }
     
+    open class func NaviStatusBarHeight() -> CGFloat {
+        return UIView.isiPhoneX() ? CGFloat(88) : CGFloat(64);
+    }
+    
     open class func ScreenWidthScale() -> CGFloat {
         return UIView.UIWidth()/375.0;
     }
